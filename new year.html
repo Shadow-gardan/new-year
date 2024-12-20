@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Year Countdown</title>
+    <link rel="shortcut icon" href="" type="image/x-icon">
+    <link rel="stylesheet" href="new year.css">
+</head>
+<body>
+    <div class="countdown" id="countdown">
+        <h1>New Year Countdown</h1>
+        <div id="timer" class="timer">
+            <span id="days">00</span><span>:</span>
+            <span id="hours">00</span><span>:</span>
+            <span id="minutes">00</span><span>:</span>
+            <span id="seconds">00</span>
+        </div>
+    </div>
+    
+    <div id="newYearMessage" class="new-year-message">🎆 Happy New Year! 🎆</div>
+    <canvas id="fireworkCanvas"></canvas>
+    <audio id="backgroundMusic" loop autoplay>
+        <source src="kasturi.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <script src="new year.js"></script>
+</body>
+</html>
